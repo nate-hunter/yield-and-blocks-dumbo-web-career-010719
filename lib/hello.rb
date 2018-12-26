@@ -1,16 +1,6 @@
-=begin 
-def hello_t (names)
-  names.each { |name|
-  puts "#{name}"
-  }
-end
-=end 
-
-# call your method here!
-
 def hello_t(array)
   if block_given?
-    i = 0   # Counter variable 
+    i = 0   
   
     while i < array.length
       yield(array[i])
