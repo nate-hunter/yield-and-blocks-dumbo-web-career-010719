@@ -13,10 +13,11 @@ def hello_t(array)
     i = 0   # Counter variable 
   
     while i < array.length
-    yield(array[i])
-    i = i + 1 
-  end
-  array 
+      yield(array[i])
+     i = i + 1 
+    end
+    array
+  end 
 end
 
 
