@@ -8,8 +8,8 @@ end
 
 # call your method here!
 
-def hello_t(array)    # Our #hello_t method will yield each element of the array to the block if a block is present. Otherwise, it will puts out a helpful phrase.
-  if block_given?   # The block_given? method returns true if the method that contains block_given? is called with a block and false if it is not.
+def hello_t(array)
+  if block_given?
     i = 0   # Counter variable 
   
     while i < array.length
